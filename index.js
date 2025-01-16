@@ -8,7 +8,5 @@ textareaEl.addEventListener("keyup", () => {
 updateCounter()
 
 function updateCounter() {
-  totalCounterEl.innerText = textareaEl.value.length;
-  CountQueuingStrategy.innerHTML = count + "Characters"
-
+ totalCounterEl.innerText = textareaEl.value.length + " Characters";
 }
